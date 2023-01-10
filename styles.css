@@ -33,6 +33,7 @@ body {
   font-family: "Outfit", sans-serif;
   font-weight: 400;
   text-align: center;
+  letter-spacing: -1px;
   border-radius: 16px;
   padding: 18px 18px 36px 18px;
   gap: 20px;
@@ -40,6 +41,9 @@ body {
 }
 .container .qr-container img {
   border-radius: 16px;
+}
+.container .qr-container p {
+  width: 97%;
 }
 .container .qr-container p:nth-child(2) {
   color: hsl(218deg, 44%, 22%);

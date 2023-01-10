@@ -42,6 +42,7 @@ body {
         font-family: "Outfit", sans-serif;
         font-weight: 400;
         text-align: center;
+        letter-spacing: -1px;
         border-radius: $border-radius;
         padding: 18px 18px 36px 18px;
         gap: 20px;
@@ -49,6 +50,10 @@ body {
 
         img {
             border-radius: $border-radius;
+        }
+
+        p {
+            width: 97%;
         }
 
         p:nth-child(2) {
