@@ -41,9 +41,6 @@ body {
 .container .qr-container img {
   border-radius: 16px;
 }
-.container .qr-container p {
-  width: 95%;
-}
 .container .qr-container p:nth-child(2) {
   color: hsl(218deg, 44%, 22%);
   font-weight: 700;
