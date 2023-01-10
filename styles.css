@@ -48,7 +48,7 @@ body {
   color: hsl(218deg, 44%, 22%);
   font-weight: 700;
   font-style: bold;
-  font-size: 22px;
+  font-size: 20px;
 }
 .container .qr-container p:nth-child(3) {
   color: hsl(220deg, 15%, 55%);
