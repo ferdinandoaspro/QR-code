@@ -17,49 +17,45 @@ body {
   display: grid;
   place-items: center;
   background-color: hsl(212deg, 45%, 89%);
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Outfit", sans-serif;
 }
 
-.container {
+main {
   display: flex;
   flex-direction: column;
 }
-.container .qr-container {
+main .qr-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: hsl(0deg, 0%, 100%);
-  width: 330px;
-  font-family: "Outfit", sans-serif;
-  font-weight: 400;
+  width: 19em;
   text-align: center;
-  letter-spacing: -1px;
-  border-radius: 16px;
-  padding: 18px 18px 36px 18px;
-  gap: 20px;
-  margin-bottom: 5px;
+  border-radius: 1em;
+  padding: 1em 1em 2em 1em;
+  gap: 1em;
+  margin-bottom: 0.5em;
 }
-.container .qr-container img {
-  border-radius: 16px;
+main .qr-container img {
+  border-radius: 1em;
 }
-.container .qr-container p {
-  width: 97%;
-}
-.container .qr-container p:nth-child(2) {
+main .qr-container h1 {
   color: hsl(218deg, 44%, 22%);
   font-weight: 700;
   font-style: bold;
-  font-size: 20px;
+  font-size: 1.2rem;
 }
-.container .qr-container p:nth-child(3) {
+main .qr-container p:nth-child(3) {
   color: hsl(220deg, 15%, 55%);
 }
-
-.attribution {
-  font-size: 11px;
+main footer {
+  font-size: 0.7rem;
   text-align: center;
 }
-.attribution a {
+main footer a {
   color: hsl(228deg, 45%, 44%);
 }
 
